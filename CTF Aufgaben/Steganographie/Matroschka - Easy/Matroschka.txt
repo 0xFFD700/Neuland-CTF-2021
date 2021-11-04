@@ -1,0 +1,17 @@
+Matroschka
+
+Kategorie: Stego
+Schwierigkeit: Easy
+
+Fun for the whole family!
+
+
+NjEgNzkgNmUgNjEgNzEgN2IgN2EgNjggMzEgMzcgMzEgNWYgNzMgMzQgNzAgMzcgMzAgMzIgNWYgMzMgNjEgNzAgMzIgNmMgNjMgMzcgMzEgMzAgNjEgN2Q=
+--> From Base64
+61 79 6e 61 71 7b 7a 68 31 37 31 5f 73 34 70 37 30 32 5f 33 61 70 32 6c 63 37 31 30 61 7d
+--> From Hex
+aynaq{zh171_s4p702_3ap2lc710a}
+--> ROT13
+nland{mu171_f4c702_3nc2yp710n}
+
+https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)From_Hex('Auto')ROT13(true,true,false,13)&input=TmpFZ056a2dObVVnTmpFZ056RWdOMklnTjJFZ05qZ2dNekVnTXpjZ016RWdOV1lnTnpNZ016UWdOekFnTXpjZ016QWdNeklnTldZZ016TWdOakVnTnpBZ016SWdObU1nTmpNZ016Y2dNekVnTXpBZ05qRWdOMlE9

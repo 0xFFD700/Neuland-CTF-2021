@@ -1,0 +1,20 @@
+Liebe Kommilitonen und Kommilitoninnen,
+
+du findest kreative Lösungen für interessante Probleme und bist technisch affin?
+Dann ist das Neuland CTF an der THI genau das richtige für dich!
+
+Capture the Flag ist ein Wettbewerb bei dem man legal "hacken" kann, du wirst Aufgaben in der Kategorien web, stego, forensic, crypto, osint, re und pwn lösen.
+Für jeden richtigen Hack gibt es eine Flage, die dir Punkte und einen Platz auf dem Scoreboard sichert.
+Hierfür benötigt ihr keine Vorkenntnisse, der CTF beinhaltet Aufgaben für alle Erfahrungsgerade. 
+Neben dem Kennenlernen von Studierenden mit gleichen Interessen und dem Spaß am Rätsel lösen gibt es natürlich auch Essen/Trinken und Preise für die besten Hacker.
+
+Uhrzeit: 10 bis 18 Uhr
+Ort: Technische Hochschule Ingolstadt
+Raum: G105
+Teams sind erlaubt, Preise gibt es jedoch nur für die besten drei Einzelkämpfer.
+Anmeldung: https://ctf.neuland-ingolstadt.de/
+ 
+
+Wir freuen uns auf viele Rückmeldungen und einen spannenden Hacking-Wettbewerb mit euch!
+
+Euer Neuland CTF-Team :)

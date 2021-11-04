@@ -1,0 +1,12 @@
+Blindspot
+
+Kategorie: Stego
+Schwierigkeit: Medium
+
+The quieter you become, the more you are able to hear.
+
+
+steghide extract -sf blindspot.png
+Passwort: hacking
+ROT47: ?=2?5LfaJ09ca5baN
+Flag: nland{72y_h42d32}
