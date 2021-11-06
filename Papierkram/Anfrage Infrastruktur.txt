@@ -1,0 +1,5 @@
+Dear  Google-Team,
+
+we are in the process of planing a CTF (Capture the Flag,  Hacking competition) at our University in Germany. Since the competition is free to attend for students and outsiders, we can not host it on our university infrastructure (a valid student ID is needed to use it). We have seen multiple other CTF event infrastructures sponsored by Google Cloud and wanted to ask if this would also be possible for our event? Are there any requirements we need to meet in order to qualify for sponsoring?
+
+Thank you in advance and have a wonderful day!
