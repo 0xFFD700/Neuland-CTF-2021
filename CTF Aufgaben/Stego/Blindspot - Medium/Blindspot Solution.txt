@@ -2,11 +2,9 @@ Blindspot
 
 Kategorie: Stego
 Schwierigkeit: Medium
-
-The quieter you become, the more you are able to hear.
-
+Author: Jen
 
 steghide extract -sf blindspot.png
-Passwort: hacking
+Passwort: agruizlke
 ROT47: ?=2?5LfaJ09ca5baN
 Flag: nland{72y_h42d32}

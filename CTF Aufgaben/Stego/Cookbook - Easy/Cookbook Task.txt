@@ -1,8 +1,9 @@
-Kochbuch
+Cookbook
 
 Kategorie: Stego
 Schwierigkeit: Easy
+Author: Jen
 
-Jedes Rezept benötigt mehrere Zutaten.
+Each recipe requires several ingredients.
 
 NjEgNzkgNmUgNjEgNzEgN2IgN2EgNjggMzEgMzcgMzEgNWYgNzMgMzQgNzAgMzcgMzAgMzIgNWYgMzMgNjEgNzAgMzAgNzEgMzEgNjEgMzkgN2Q=
