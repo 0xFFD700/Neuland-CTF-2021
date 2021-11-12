@@ -1,0 +1,19 @@
+Pillowtalk
+
+Kategorie: Stego
+Schwierigkeit: Hard
+Author: Jen
+
+- The image has a red line in the top left corner
+- The Red value of the line has a the values 200 and 201
+- The whole line reads "01110100 01000111 01110001 01111000 01010100 01000001 00111001 01101001"
+- It leads to a pastebin "https://pastebin.com/tGqxTA9i"
+- The pastebin contains a qr code which is made up from 1 and 0
+- nland{741k_70_m3_q2}
+
+
+
+
+
+
+
