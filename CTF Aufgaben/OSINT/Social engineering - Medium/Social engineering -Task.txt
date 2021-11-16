@@ -1,0 +1,9 @@
+Social engineering
+
+Kategorie: OSINT
+Schwierigkeit: Medium
+Author: Jen
+
+What I found personally to be true was that it's easier to manipulate people rather than technology. ~ Kevin Mitnick
+--> Etsuko Simon GmbH Website
+
