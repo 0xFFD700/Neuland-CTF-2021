@@ -1,0 +1,73 @@
+Baby
+
+Kategorie: Crypto
+Schwierigkeit: Medium
+Author: Jen
+
+To be extra secure, we started to AES encrypt our usernames and passwords.
+Now we can tell you that the password for the Encryption server is "password123" and the username is "root" and you still can't log in.
+Have a try: <ip>:1337
+
+
+Sourcecode:
+
+key = get_random_bytes(16)
+iv = get_random_bytes(16)
+
+
+def encrypt_data(data):
+	padded = pad(data.encode(),16,style='pkcs7')
+	cipher = AES.new(key, AES.MODE_CBC,iv)
+	enc = cipher.encrypt(padded)
+	return enc.hex()
+
+def decrypt_data(encryptedParams):
+	cipher = AES.new(key, AES.MODE_CBC,iv)
+	paddedParams = cipher.decrypt( unhexlify(encryptedParams))
+	print(paddedParams)
+	if b'root&password=password123' in unpad(paddedParams,16,style='pkcs7'):
+		return 1
+	else:
+		return 0
+
+def send_msg(s, msg):
+	enc = msg.encode()
+	s.send(enc)
+
+def login(s):
+	send_msg(s,'\nLogin with auth ciphertext: ')
+
+	enc_msg = s.recv(4096).decode().strip()
+	
+	try:
+		check = decrypt_data(enc_msg)
+	except Exception as e:
+		send_msg(s, str(e) + '\n')
+		s.close()
+
+	if check:
+		send_msg(s, '\nLogged in! \n'+ FLAG)
+		s.close()
+	else:
+		send_msg(s, 'Auth ciphertext is incorrect!\n')
+		s.close()
+		
+def createAuth(s):
+	send_msg(s, '\nUsername: ')
+	user = s.recv(4096).decode().strip()
+
+	send_msg(s, 'Password: ' )
+	passwd = s.recv(4096).decode().strip()
+
+	msg = 'username=' + user +'&password=' + passwd
+
+	try:
+		assert('username=root&password=password123' not in msg)
+	except AssertionError:
+		send_msg(s, 'Good try but we are security experts!\n')
+		return
+		raise
+
+	msg = 'auth:  username=' + user +'&password=' + passwd
+	send_msg(s, 'Auth ciphertext: ' + encrypt_data(msg)+'\n')
+	return
