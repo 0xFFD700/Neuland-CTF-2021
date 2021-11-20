@@ -1,0 +1,5 @@
+- Extract .ab file with "java -jar abp.jar unpack backup.ab backup.zip"
+- Go to /home/ffd700/Schreibtisch/GitHub/Neuland-CTF-2021/CTF Aufgaben/forensic/Call me -Medium/backup/apps/com.android.providers.telephony/databases/mmssms.db
+- Open in sqllite and look at all the SMS 
+- The password is "6e 6c 61 6e 64 7b 6d 30 38 31 31 33 70 68 30 6e 33 7d 0a" I have formatted it in hex so no one can search for it!
+- nland{m08113ph0n3}

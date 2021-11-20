@@ -1,0 +1,9 @@
+Call me
+
+Kategorie: Forensic
+Schwierigkeit: Medium
+Author: Jen
+
+I'm sure I shared the flag with a friend, maybe you can find!
+
+--> backup.ab
