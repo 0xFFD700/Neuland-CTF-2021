@@ -4,7 +4,21 @@ Kategorie: Stego
 Schwierigkeit: Medium
 Author: Jen
 
-steghide extract -sf blindspot.png
-Passwort: agruizlke
-ROT47: ?=2?5LfaJ09ca5baN
+steghide extract -sf blindspot.jpg
+Passwort in Braille: agruizlke
 Flag: nland{72y_h42d32}
+
+MARKDOWN
+
+#### Blindspot - Medium
+ </br>
+*The quieter you become, the more you are able to see.*
+ </br>
+<img src="blindspot.jpg" alt="">
+
+ </br>
+
+Some dots seem to have a thinner rim and look like braille. If we translate them, it spells **agruizlke**. After taking a closer look at the picture itself, it seems to contain something. We can try to extract it with [Steghide](http://steghide.sourceforge.net/) ```steghide extract -sf blindspot.jpg``` . The extracted text file contains the flag.
+```
+nland{72y_h42d32}
+```

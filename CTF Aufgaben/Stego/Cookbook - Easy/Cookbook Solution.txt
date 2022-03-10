@@ -7,3 +7,33 @@ aynaq{zh171_s4p702_3ap0q1a9}
 nland{mu171_f4c702_3nc0d1n9}
 
 https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)From_Hex('Auto')ROT13(true,true,false,13)&input=TmpFZ056a2dObVVnTmpFZ056RWdOMklnTjJFZ05qZ2dNekVnTXpjZ016RWdOV1lnTnpNZ016UWdOekFnTXpjZ016QWdNeklnTldZZ016TWdOakVnTnpBZ016QWdOekVnTXpFZ05qRWdNemtnTjJRPQ
+
+MARKDOWN
+#### Cookbook - Easy
+ </br>
+*Each recipe requires several ingredients.*
+ </br>
+```
+NjEgNzkgNmUgNjEgNzEgN2IgN2EgNjggMzEgMzcgMzEgNWYgNzMgMzQgNzAgMzcgMzAgMzIgNWYgMzMgNjEgNzAgMzAgNzEgMzEgNjEgMzkgN2Q=
+```
+
+ </br>
+The flag seems to be encoded, a good open source tool to solve these kinds of challenges is [CyberChef](https://gchq.github.io/CyberChef).
+
+The **=** at the end indicates base64. From Base64 gives us 
+
+```
+61 79 6e 61 71 7b 7a 68 31 37 31 5f 73 34 70 37 30 32 5f 33 61 70 30 71 31 61 39 7d
+```  
+
+The string only contains numbers and letters up to F which is a pretty clear sign for hex. 
+From Hex gives us
+``` 
+aynaq{zh171_s4p702_3ap0q1a9}
+``` 
+
+It already looks like a flag, but the characters are a bit off, let's try to shift them with the Caesar Cipher. 
+From Rot13 gives us
+``` 
+nland{mu171_f4c702_3nc0d1n9}
+``` 

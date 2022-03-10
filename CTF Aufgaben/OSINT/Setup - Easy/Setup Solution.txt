@@ -5,3 +5,12 @@
 
 
 nland{0p324710n5_53cu217y}
+
+MARKDOWN:
+#### Setup - Easy
+ </br>
+*The hacker "0xc0c0c0c" has been quite active on social media lately.*
+
+ </br>
+A quick google search leads us to a [Twitter Account](https://twitter.com/0xc0c0c0c) with the mentioned name. When scrolling through its recent posts, we can find an [Anopic URL](https://anopic.us/jsI0DpwHhoMv4wTzdaga7XrxtcYgMo1k67dCw8iD.jpg) that leads to a picture of a desk setup. You can see a Post-it sticking to the screen with the flag written on it.
+```nland{0p324710n5_53cu217y}```
