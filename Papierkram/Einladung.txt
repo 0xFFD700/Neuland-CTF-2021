@@ -9,7 +9,7 @@ Hierfür benötigt ihr keine Vorkenntnisse, der CTF beinhaltet Aufgaben für all
 Neben dem Kennenlernen von Studierenden mit gleichen Interessen und dem Spaß am Rätsel lösen gibt es natürlich auch kostenloses Essen/Trinken und Preise für die besten Hacker.
 
 Zeit: 02.04.2021, Flaggen können von 10 bis 18 Uhr abgegeben werden, danach ist ein Get-Together mit Snacks geplant.
-Ort: Technische Hochschule Ingolstadt im Raum G105
+Ort: Technische Hochschule Ingolstadt im Raum G107
 Anmeldung: https://ctf.neuland-ingolstadt.de/
 Preise: 1 Platz: 500€ 2/3 Platz: Hack the Box Guthaben (Teams sind erlaubt, Preise gibt es jedoch nur für die besten drei Einzelkämpfer.)
 
@@ -38,7 +38,7 @@ You do not need any previous knowledge, the CTF includes tasks for all levels of
 In addition to getting to know students with the same interests and having fun solving puzzles, there is of course also free food/drinks and prizes for the best hackers.
 
 Time: 04/02/2021, Flags can be handed in from 10 a.m. to 6 p.m., after which a get-together with snacks is planned.
-Place: Technische Hochschule Ingolstadt in room G105
+Place: Technische Hochschule Ingolstadt in room G107
 Registration: https://ctf.neuland-ingolstadt.de/
 Prizes: 1 place: 500€ 2/3 place: Hack the Box credits (teams are allowed, but prizes are only available for the best three lone fighters.)
 
