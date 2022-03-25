@@ -1,0 +1,7 @@
+Windows are insecure
+
+Kategorie: OSINT
+Schwierigkeit: Easy
+Author: Alex & Manu
+
+We left our access keys at the office. Maybe it's time for a walk?
