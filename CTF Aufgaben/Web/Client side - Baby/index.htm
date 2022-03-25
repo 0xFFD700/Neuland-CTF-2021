@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <script>
+            function verify() {
+                const username = document.getElementsByName('username')[0].value
+                const password = document.getElementsByName('password')[0].value
+                if (username == 'admin' && password == '5d82dabd-dcfa-4243-9c9f-f743d5ce764d') {
+                    document.write('nland{fea7cf41-ad4c-4de6-952b-4e8085d08b00}')
+                } else {
+                    document.write('Wrong username and/or password')
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form method="POST" onsubmit="verify()">
+            Username: <input type="text" name="username"><br />
+            Password: <input type="password" name="password"><br />
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html> 
