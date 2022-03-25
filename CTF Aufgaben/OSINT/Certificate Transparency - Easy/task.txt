@@ -1,0 +1,7 @@
+Transparency is key
+
+Kategorie: OSINT
+Schwierigkeit: Easy
+Author: Alex
+
+Have we updated our certificates recently? Transparency is important.
