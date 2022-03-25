@@ -1,0 +1,9 @@
+Minecraft
+
+Kategorie: pwn
+Schwierigkeit: Medium
+Author: Alex
+
+My buddy set up a Minecraft server. I wonder what else is on his machine?
+
+-----> IP/Port of Minecraft server
