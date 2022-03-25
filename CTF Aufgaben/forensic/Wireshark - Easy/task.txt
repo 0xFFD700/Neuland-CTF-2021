@@ -1,0 +1,9 @@
+Network analysis
+
+Kategorie: Forensic
+Schwierigkeit: Easy
+Author: Alex
+
+Someone didn't follow best practices.
+
+--> capture.pcapng
