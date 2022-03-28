@@ -1,19 +1,39 @@
-Pillowtalk
+--> nland{741k3r}
 
-Kategorie: Stego
-Schwierigkeit: Hard
-Author: Jen
+MARKDOWN:
+#### Pillowtalk - Hard
+ </br>
+*Maybe it would have been easier to put my secret into pastebin.*
+ </br>
+<img src="https://0xffd700.com/bl-content/uploads/pages/743bc0c5ce0fbffc4fa7dfe56fa5aa07/pillowtalk.png" alt="">
 
-- The image has a red line in the top left corner
-- The Red value of the line has a the values 200 and 201
-- The whole line reads "01110100 01000111 01110001 01111000 01010100 01000001 00111001 01101001"
-- It leads to a pastebin "https://pastebin.com/tGqxTA9i"
-- The pastebin contains a qr code which is made up from 1 and 0
-- nland{741k_70_m3_q2}
+ </br>
 
+In the upper left corner of the picture, we can see a faint red line. When we open the image and look at the individual pixel in the Python library PIL, we can see that the red line consists of ((200,50,50,50) and (200,50,51,50)).
 
+We can parse out the 1 and 0 with a simple Python script.
+```
+from PIL import Image
+import matplotlib.pyplot as plt
 
+im = Image.open('pillowtalk.png')
+pixelMap = im.load()
 
+img = Image.new( im.mode, im.size)
+pixelsNew = im.load()
 
+flag = ""
 
+for x in range(100,204):
+    s = pixelMap[100,x]
+    if(s[2] == 51):
+        flag += "1"
+    else:
+        flag += "0"
 
+print(flag)
+```
+
+The result can be converted from binary to a string with [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)&input=MDExMDExMTAwMTEwMTEwMDAxMTAwMDAxMDExMDExMTAwMTEwMDEwMDAxMTExMDExMDAxMTAxMTEwMDExMDEwMDAwMTEwMDAxMDExMDEwMTEwMDExMDAxMTAxMTEwMDEwMDExMTExMDE).
+
+The flag is ```nland{741k3r}```
