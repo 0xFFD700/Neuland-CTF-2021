@@ -1,6 +1,5 @@
 - 0xc0c0c0 has a twitter account
-- In one of the tweets he reverse to a pastebin with his new DeskSetup
-- https://anopic.us/jsI0DpwHhoMv4wTzdaga7XrxtcYgMo1k67dCw8iD.jpg
+- First Tweet is a picture of a desk setup
 - Picture has a post it note with the flag on it
 
 
@@ -12,5 +11,10 @@ MARKDOWN:
 *The hacker "0xc0c0c0c" has been quite active on social media lately.*
 
  </br>
-A quick google search leads us to a [Twitter Account](https://twitter.com/0xc0c0c0c) with the mentioned name. When scrolling through its recent posts, we can find an [Anopic URL](https://anopic.us/jsI0DpwHhoMv4wTzdaga7XrxtcYgMo1k67dCw8iD.jpg) that leads to a picture of a desk setup. You can see a Post-it sticking to the screen with the flag written on it.
+A quick google search leads us to a [Twitter Account](https://twitter.com/0xc0c0c0c) with the mentioned name. When scrolling through the recent posts, we can find a picture of a desk setup. 
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/743bc0c5ce0fbffc4fa7dfe56fa5aa07/jsI0DpwHhoMv4wTzdaga7XrxtcYgMo1k67dCw8iD.jpg" alt="">
+ </br>
+You can see a Post-it sticking to the screen with the flag written on it.
+
 ```nland{0p324710n5_53cu217y}```
