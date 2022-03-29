@@ -1,0 +1,10 @@
+Lecture Pick 1
+
+Kategorie: pwn
+Schwierigkeit: Easy
+Author: Jakob
+
+Your university set up this server allowing you to pick a lecture.
+Can you extract the secret information?
+
+-----> IP/Port of Server

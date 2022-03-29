@@ -1,0 +1,13 @@
+Lecture Pick 3
+
+Kategorie: pwn
+Schwierigkeit: Hard
+Author: Jakob
+
+Your university set up this server allowing you to pick a lecture.
+Their security countermeasures are even better this time.
+Only a real hacker like you can extract the flag this time.
+
+-----> Binary of the Program
+-----> libc binary
+-----> IP/Port of Server

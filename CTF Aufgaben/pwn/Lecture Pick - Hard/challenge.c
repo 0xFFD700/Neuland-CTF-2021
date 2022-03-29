@@ -16,7 +16,7 @@ const char *courses[8] = {
 };
 
 int main() {
-    printf("Courses:\n");
+    printf("Courses [%p]:\n", printf);
     for(int i = 0; i < 8; i++) {
         printf("  - %s\n", courses[i]);
     }

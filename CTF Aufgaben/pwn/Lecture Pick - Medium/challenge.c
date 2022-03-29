@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-#define FLAG "nflag{dummy-flag-for-testing}"
+const char *flag = "nflag{dummy-flag-for-testing}";
 
 int main() {
-    const char *flag = FLAG;
     const char *courses[8] = {
         "Maths 1",
         "Maths 2",

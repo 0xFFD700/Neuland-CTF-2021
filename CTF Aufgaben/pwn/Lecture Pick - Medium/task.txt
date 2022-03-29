@@ -1,0 +1,12 @@
+Lecture Pick 2
+
+Kategorie: pwn
+Schwierigkeit: Medium
+Author: Jakob
+
+Your university set up this server allowing you to pick a lecture.
+This time the secret does not seem to be on the Stack.
+Can you still extact it?
+
+-----> Binary of the Program
+-----> IP/Port of Server
