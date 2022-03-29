@@ -3,3 +3,24 @@
 - Open in sqllite and look at all the SMS 
 - The password is "6e 6c 61 6e 64 7b 6d 30 38 31 31 33 70 68 30 6e 33 7d 0a" I have formatted it in hex so no one can search for it!
 - nland{m08113ph0n3}
+
+MARKDONW:
+#### Call me - Medium
+ </br>
+*I'm sure I shared the flag with a friend, maybe you can find!*
+ </br>
+
+DOC{backup.ab;backup.ab;}
+
+ </br>
+An AB file is a backup of some or all of the data stored on a user's Android device. We can use the Android Debug Bridge (ADB) with the command 
+```java -jar abp.jar unpack backup.ab backup.zip```
+to extract the files.
+
+The challenge description gives us the hint that the flag was shared with a friend. Let's take a look at the SMS App under **backup/apps/com.android.providers.telephony/databases/mmssms.db**. Here we can find a database containing all SMS Communication.
+A simple 
+```strings mmssms.db```
+reveals all the messages including
+```The password is "6e 6c 61 6e 64 7b 6d 30 38 31 31 33 70 68 30 6e 33 7d 0a" I have formatted it in hex so no one can search for it!```
+
+The flag is ```nland{m08113ph0n3}```
