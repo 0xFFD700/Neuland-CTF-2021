@@ -53,22 +53,22 @@ e2=0x1f9096
 #e2 = (2 * 31 * 5 * 6673)  
 c2=0xb7cc89df7788b0fb68c941628fd89529c78d15fe913162c2363d639265c7f8641628437916179a8f3165bbbbdeb36a7dbca5af8787a4ccf3e335543b52cf072e3c5ed41571dfae682e5f00b7a9a305ab4e756f4fcd10ae900d7b5af62de93518527c885731a1b82537a82ef125db984540fdac59ba1a4b59df1f414e285006ad
 
-# calculating the comman factor if n1 and n2
-p = gcd(n1,n2)
+# Calculating the common factor if n1 and n2
+p = math.gcd(n1,n2)
 q1 = n1//p
 q2 = n2//p
 
-#callculating greatest factor of e and φ(n)
+# Calculating the greatest factor of e and φ(n)
 e1 = e1//math.gcd(e1,(p-1)*(q1-1))
 e2 = e2//math.gcd(e2,(p-1)*(q2-1)) 
 
-#calculating the private keys
+# Calculating the private keys
 φ1 = (p-1)*(q1-1)
 φ2 = (p-1)*(q2-1)
 d1 = gmpy2.invert(e1,φ1)
 d2 = gmpy2.invert(e2,φ2)
 
-#decrypting the cipher
+# Decrypting the cipher
 f1 = pow(c1,d1,n1)
 f2 = pow(c2,d2,n2)
 
@@ -90,11 +90,11 @@ n3 = q1*q2
 c3 = f3%n3
 φ3 = (q1-1)*(q2-1)
 
-#because e and φ(n) both also have the comman factor 2
-ding = 10//gcd((q1-1)*(q2-1),10) 
+# Because e and φ(n) both have the common factor 2
+ding = 10//math.gcd((q1-1)*(q2-1),10) 
 d3 = gmpy2.invert(ding,φ3) 
 m3 = pow(c3,d3,n3)
 
-#make flag readable
+# Flag
 flag = gmpy2.iroot(m3,2)[0]
 print(binascii.unhexlify(hex(flag)[2:].strip("L")))

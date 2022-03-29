@@ -4,7 +4,7 @@ MARKDOWN:
 
 #### Relatively - Hard
  </br>
-I send my friend the same message twice with a different module and public key, what is our secret?
+*I send my friend the same message twice with a different module and public key, what is our secret?*
 
 ```
 n1=0xcfc59d54b4b2e9ab1b5d90920ae88f430d39fee60d18dddbc623d15aae645e4e50db1c07a02d472b2eebb075a547618e1154a15b1657fbf66ed7e714d23ac70bdfba4c809bbb1e27687163cb09258a07ab2533568192e29a3b8e31a5de886050b28b3ed58e81952487714dd7ae012708db30eaf007620cdeb34f150836a4b723
@@ -45,7 +45,7 @@ e2=0x1f9096 #(2 * 31 * 5 * 6673)
 c2=0xb7cc89df7788b0fb68c941628fd89529c78d15fe913162c2363d639265c7f8641628437916179a8f3165bbbbdeb36a7dbca5af8787a4ccf3e335543b52cf072e3c5ed41571dfae682e5f00b7a9a305ab4e756f4fcd10ae900d7b5af62de93518527c885731a1b82537a82ef125db984540fdac59ba1a4b59df1f414e285006ad
 
 # Calculating the common factor if n1 and n2
-p = gcd(n1,n2)
+p = math.gcd(n1,n2)
 q1 = n1//p
 q2 = n2//p
 
@@ -82,7 +82,7 @@ c3 = f3%n3
 φ3 = (q1-1)*(q2-1)
 
 # Because e and φ(n) both have the common factor 2
-ding = 10//gcd((q1-1)*(q2-1),10) 
+ding = 10//math.gcd((q1-1)*(q2-1),10) 
 d3 = gmpy2.invert(ding,φ3) 
 m3 = pow(c3,d3,n3)
 
