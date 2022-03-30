@@ -6,7 +6,7 @@ import socketserver
 import socket, os
 
 
-FLAG = 'nland{810ck_c1ph325_423_fun}'
+FLAG = 'nflag{dummy-flag-for-testing}'
 
 key = get_random_bytes(16)
 iv = get_random_bytes(16)
