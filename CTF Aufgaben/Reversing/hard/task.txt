@@ -1,0 +1,10 @@
+Name: kernel32 & ntdll
+Kategorie: rev
+Schwierigkeit: Hard
+Author: Skyfail
+
+We got this exe file from a Hacker over at Stract.
+It seems to do some weird calls changing its own mappings.
+Maybe you can make a sense of it and find the flag?
+
+-----> THICTF_April2022_RE.exe
