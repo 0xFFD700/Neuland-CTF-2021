@@ -4,6 +4,8 @@ Kategorie: OSINT
 Schwierigkeit: Medium
 Author: Jen
 
-What I found personally to be true was that it's easier to manipulate people rather than technology. ~ Kevin Mitnick
---> Etsuko Simon GmbH Website
+Flag: nland{<name of Simon's pet>_<last name of the on call employee>_<first name of the website author>}
+Hint: The flag is written in all lowercase.
+
+--> Link to Etsuko Simon GmbH Website
 
