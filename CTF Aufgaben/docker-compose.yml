@@ -1,0 +1,52 @@
+version: "3.9"
+services:
+  osint1:
+    build:
+      context: "./OSINT/Social engineering - Medium/website"
+    restart: always
+    ports:
+      - "8081:80"
+  web1:
+    build:
+      context: "./Web/Client side - Baby"
+    restart: always
+    ports:
+      - "8082:80"
+  web2:
+    build:
+      context: "./Web/SQL Injection - Easy"
+    restart: always
+    ports:
+      - "8083:4000"
+  pwn1:
+    build:
+      context: "./pwn/Lecture Pick - Easy"
+    restart: always
+    ports:
+      - "8084:4000"
+  pwn2:
+    build:
+      context: "./pwn/Lecture Pick - Medium"
+    restart: always
+    ports:
+      - "8085:4000"
+  pwn3:
+    build:
+      context: "./pwn/Lecture Pick - Hard"
+    restart: always
+    ports:
+      - "8086:4000"
+  mc:
+    build: "./pwn/Minecraft - Medium/server"
+    init: true
+    restart: always
+    ports:
+      - 8087:25565
+    tty: true
+    stdin_open: true
+  crp:
+    build: 
+      context: "./Crypto/Flipdot - Medium"
+    restart: always
+    ports:
+      - 8088:8080
