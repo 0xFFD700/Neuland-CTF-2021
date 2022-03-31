@@ -17,7 +17,7 @@ services:
       context: "./Web/SQL Injection - Easy"
     restart: always
     ports:
-      - "8083:4000"
+      - "8083:3000"
   pwn1:
     build:
       context: "./pwn/Lecture Pick - Easy"
