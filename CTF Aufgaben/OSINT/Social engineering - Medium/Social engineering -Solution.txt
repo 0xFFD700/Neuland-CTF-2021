@@ -1,9 +1,23 @@
+Flag: nland{bodo_nagel_ada}
 
-https://twitter.com/EtsukoSimonGmbH
-https://www.instagram.com/simon.etsuko/
+MARKDOWN:
+#### Social engineering - Medium
+ </br>
+*Flag:* 
+```
+nland{<name of Simon's pet>_<last name of the on call employee>_<first name of the website author>}
+```
+*Hint: The flag is written in all lowercase.*
+</br>
+<img src="https://0xffd700.com/bl-content/uploads/pages/743bc0c5ce0fbffc4fa7dfe56fa5aa07/Bildschirmfoto_2022-03-31_20-51-19.png" alt="">
 
+</br>
 
-3 security questions:
-- Firstname: Simon
-- Hometown: Fresno
-- Dog Name: Bodo
+For the first part of the flag we need to take a look at the linked [Instagram of Simon Etsukos](https://www.instagram.com/simon.etsuko/) which includes a picture of his cat titled *Bodo*. 
+
+The second part is hidden in the metadata of the Website. If we inspect the HTML code, we can find 
+```<meta name="author" content="*Ada* Lovelace" />```.
+
+For the last piece of the puzzle, we have to call the reverenced phone number, which has a voicemail message telling us that the employee on call is called Mr *Nagel*.
+
+The flag is ```nland{bodo_nagel_ada}```.
