@@ -1,0 +1,2 @@
+There is a ESP32 BLE server called "Neuland Surveillance Device" in the room.
+You need to connect to it and read the only characteristic, which contains the flag.
