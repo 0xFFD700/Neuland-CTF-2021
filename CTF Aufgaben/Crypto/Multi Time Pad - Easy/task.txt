@@ -1,0 +1,9 @@
+Multi Time Pad
+
+Kategorie: Crypto
+Schwierigkeit: Easy
+Author: Jakob
+
+A friend said he "padded" the following message and says this cryptography is UNBREAKABLE!!! I know he does not like long keys though, so maybe you can decrypt the message?
+
+7d 5b a1 b0 77 4c b8 ee 61 1a f1 ad 3e 59 f0 aa 3e 06 ed aa 22 5a f3 f3 63 03 a4 a3
